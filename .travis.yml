@@ -1,0 +1,10 @@
+language: erlang
+otp_release:
+  - 17.4
+notifications:
+  email: false
+sudo: false
+
+# script:
+#  - ./rebar get-deps
+#  - ./rebar compile && ./rebar skip_deps=true eunit
